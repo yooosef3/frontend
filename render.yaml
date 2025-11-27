@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: lawyer-frontend
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    repo: https://github.com/yooosef3/MERN_Lawyer-Appointment_FrontEnd
+    branch: main
+    autoDeploy: true
+    healthCheckPath: /
