@@ -24,7 +24,6 @@ function App() {
           path="/"
           element={
             <>
-              <h1>Test CI/CD</h1>
               <Home />
               <Footer />
             </>
